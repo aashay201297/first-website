@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Its Me:p</title>
+        <link rel="stylesheet" href="../css/StyleSheet.css">
+        <script src="../js/dropmenu.js"></script>
+        <script src="../js/Script.js"></script>
+        <script src="../js/Script2.js"></script>
+    </head>
+    <body onload="startTime()">
+        <div id="pagetop">
+            <h1 id="page_heading" class="heading_txt">Home</h1>
+            <div id="menu">
+                <div class="link"><a  href="home.html">Home</a></div>
+                <div class="link"><a  href="about.html">About</a></div>
+                <div class="link"><a  href="family.html">Family</a></div>
+                <div class="link" id="interest" onmouseover="d_menu('menu1')" onmouseout="close_menu('menu1')"><a  href="interest.html">Interests and Hobbies</a>
+                </div>
+                <div class="link"><a  href="future.html">Timeline of my life</a></div>
+                <div class="link"><a  href="contact.html">Contact me</a></div>
+            </div>
+        </div>
+        <div id="menu1" class="folding_menu" data-opened="no" onmouseover="d_menu('menu1')" onmouseout="close_menu('menu1')">
+            <a href="interest.html#trackbox" id="music_player">Music</a>
+            <a href="interest.html#section1" id="basketball">Basketball</a>
+            <a href="interest.html#section2" id="iron_man">Iron Man</a>
+        </div>
+        <div id="second">
+            <section id="section">
+                <div>
+                    <h1 class="main_text_in_section">WELCOME TO MY WORLD..</h1>
+                </div>
+                <div id="image_my_world">
+                    <img src="../utilities/myworld.jpg" alt="my world">
+                </div>
+                <div>
+                    <h1 class="main_text_in_section">OR ATLEAST MY WEBSITE</h1>
+                </div>
+                <div id="contact">
+                    <div id="places_i_hangout">
+                        <p>JOIN ME ON FACEBOOK</p>
+                        <a href="https://www.facebook.com/aashay.singhal" id="facebook">Facebook</a>
+                    </div>
+                </div>
+            </section>
+            <div id="time" class="time"></div>
+            <div class="marquee">
+                <p>Made by ME :p</p>
+                <p>Aashay Singhal</p>
+            </div>
+        </div>
+        <p id="mail">Mail me at <a href="mailto:aashay225@gmail.com" id="mail_link">aashay225@gmail.com</a></p>
+    </body>
+</html>
+
